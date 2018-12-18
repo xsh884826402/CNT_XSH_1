@@ -1,0 +1,6 @@
+BianZhengComplete 训练处五个模型去预测五个对应的辨证，并将辨证存储下来
+TezhengToResult 将五个辨证作为输入，预测最终的类别
+（8号考试，请苗总理解一下，现在实在没时间写注释，你先将就着看
+practice_for_multilabel 将数据处理成多标签分类
+TeZhengtoresult 根据预测出来的五个角度的辨证，预测最终的分类
+Tezhengtoresult 根据最后给出的表格，按照表格匹配进行预测辨证。
