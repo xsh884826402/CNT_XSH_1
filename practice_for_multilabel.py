@@ -7,6 +7,7 @@ from data_build import *
 #get_multilabel_by_multiclass 分别存储五个辨证的转化词典
 #get_Multiclass 将八纲里面的每一种出现的组合 处理成一个类别
 def get_multilabel_ZangFu(y_train):
+    y
     labels = ['心肝脾肺肾胆胃']
     mlb = MultiLabelBinarizer()
     mlb.fit(labels)

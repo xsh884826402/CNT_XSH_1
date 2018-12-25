@@ -1,6 +1,7 @@
 #为方便处理，将血瘀处理成瘀
 import pandas as pd
 import pickle
+#读取中间辨证那张excell表，将辨证与中间辨证以词典的形式存储，存储到label_transfer_dict
 def get_dict_label(filename = './data/辩证分词20181003.xlsx'):
     df = pd.read_excel(filename)
     list_label = list(df.keys())
@@ -15,6 +16,7 @@ def get_dict_label(filename = './data/辩证分词20181003.xlsx'):
 
         dict_label[key] = list1
     return dict_label
+
 if __name__ =="__main__":
     dict = get_dict_label('./data/辩证分词20181003.xlsx')
     with open('./data/label_transfer_dict.pkl','wb' ) as f:
