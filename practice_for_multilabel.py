@@ -1,13 +1,22 @@
+#程序说明
+#get_multilabel 和get_inverse使用的是sklearn将标签向量化
+#get_multilabel_by_multiclass 分别存储五个辨证的转化词典
+#get_Multiclass 将八纲里面的每一种出现的组合 处理成一个类别
+#
+#后来依据苗总要求，将五个中间辨证中的组合提取出来，转化为多类别标签
+#以脏腑为例，解释get_MultiLabel_ZangFu_Multiclass
+#get_multilabel_ZangFu_Multiclass
+#   输入：待转换的y
+#   功能：通过读取label——transfer_dict（字典，key是四十个分类里的类别，value是一个列表，包含五个中间辨证的具体值）,得到脏腑的一个列表。
+#           用LabelBinarier去得到向量化的结果，这里LabelBinarier会自动去重。存储脏腑的10几个类别的列表到ZangFU_multiclass.pkl，这个在test时候会用到
+#   输出：将对应的y转化成向量
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.preprocessing import LabelBinarizer
 import pickle
 import numpy as np
 from data_build import *
-#get_multilabel 和get_inverse使用的是sklearn将标签向量化
-#get_multilabel_by_multiclass 分别存储五个辨证的转化词典
-#get_Multiclass 将八纲里面的每一种出现的组合 处理成一个类别
+
 def get_multilabel_ZangFu(y_train):
-    y
     labels = ['心肝脾肺肾胆胃']
     mlb = MultiLabelBinarizer()
     mlb.fit(labels)
@@ -344,4 +353,4 @@ y = np.array([0, 0.,0.,1,0.,0,0])
 print(np.reshape(y,(1,7)))
 # get_inverse_multilabel_ZangFu(y)
 if __name__ =="__main__":
-    get_multilabel_BaGang_Multiclass('str')
+    get_multilabel_BaGang_Multiclass([''])

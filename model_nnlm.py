@@ -37,6 +37,14 @@ class TextCnn():
 
         with tf.device('/cpu:0'):
             self.embedding = tf.get_variable('embedding', [self.config.vocab_size, self.config.embedding_dim],)
+            # file_cidian = open('./cidian_data15.pkl', 'rb')
+            # indexword = pickle.load(file_cidian)
+            # vectorword = pickle.load(file_cidian)
+            # length = len(indexword) + 1
+            # self.embedding = np.zeros([self.config.vocab_size, self.config.embedding_dim])
+            # for w, k in indexword.items():
+            #     self.embedding[k, :] = vectorword[w]
+            # self.embedding[0, :] = np.random.uniform(-0.1, 0.1, 128)
             self.embedding_inputs = tf.nn.embedding_lookup(self.embedding, self.input_x)
         with tf.name_scope("cnn"):
             # conv = tf.layers.conv1d(self.embedding_inputs, self.config.num_filters,self.config.kernel_size,padding='valid',  name ='conv')

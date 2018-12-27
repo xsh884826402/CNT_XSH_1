@@ -1,11 +1,26 @@
 #encoding=utf-8
+
+#程序说明
+#主要有train函数和test函数
+#train_n函数对应着第n个辨证的训练：
+#   输入：model（模型），save_dir(模型存储路径),cidian_dir(指明使用哪一个词典，词典指的是不同的词向量，需要用词典将文字输入转换成向量）
+#   功能：对第n个辨证进行训练，并将结果保存在save_dir中
+#   输出：无
+#   在train_n的函数中调用data-build得到X和Y，这里的X和Y是文本
+#   调用word_to_index将词转换成索引，
+#   调用get_multilabel_ZangFu_Multiclass 将y这个文本转换成对应的多类别标签向量
+#test_n 函数 加载模型进行预测
+#    输入：model,save_dir,cidian_dir意义同上
+#    功能：加载模型对输入的病历进行预测
+#    输出：测试数据X对应的第n个辨证的结果
+
 from model_nnlm import *
 import os
 import pickle
 from data_build import *
 from keras.preprocessing import sequence
 from keras.utils import np_utils
-from cnews_loader import *
+from Batch_Iter import *
 from practice_for_multilabel import *
 from sklearn.metrics import f1_score
 #from tensorflow.python.training import moving_averages
@@ -122,15 +137,6 @@ def train1(model, save_dir,cidian_dir):
     last_improved =0
     require_improvement = 1000
     flag = False
-
-    # feed_dict_eval = {
-    #     model.input_x: x_train,
-    #     model.input_y: y_train,
-    #     model.keep_prob: model.config.dropout_keep_prob
-    # }
-
-
-    #print('x', model.input_x[0, :].eval(feed_dict=feed_dict_eval))
     for epoch in range(model.config.num_epochs):
         print('Epoch',epoch)
         batch_train = batch_iter(x_train, y_train, model.config.batch_size)
@@ -165,14 +171,6 @@ def train1(model, save_dir,cidian_dir):
                 msg = 'Iter: {0:>6}, Train Loss: {1:>6.2}, Train Acc: {2:>7.2%},' \
                       + ' Val Loss: {3:>6.2}, Val Acc: {4:>7.2%}, '
                 print(msg.format(total_batch, loss_train, acc_train, loss_val, acc_val, improved_str))
-                print()
-            # list_gradient = session.run([model.compute[0]], feed_dict=feed_dict)#元组列表
-            # temp = session.run([model.embedding])
-            # print(temp, 'shape', )
-            # values, index =list_gradient[0]#每个元组有gradient，var
-            # print(list_gradient[0][0][0], np.shape(list_gradient[0][0][0]))
-            # print(list_gradient[0][0][1])
-            # print('0','values', np.shape(values), 'index', np.shape(index))
             session.run(model.optim, feed_dict = feed_dict)
             total_batch += 1
     print('----------------Predicting---------------')

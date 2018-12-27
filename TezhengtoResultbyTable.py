@@ -1,4 +1,6 @@
-#本脚本只负责预测结果
+#程序说明
+#程序功能：调用五个rnn_nnlm 中的test函数，得到测试病历主诉对应的五个中间辨证的，分别是y_str1~~y_str5，
+#           然后根据得到的五个y_str（五个角度的辨证）去按照表匹配得到结果
 from run_nnlm import *
 import tensorflow as tf
 import pickle
@@ -56,7 +58,7 @@ with open(str_dir, 'wb') as f:
     pickle.dump(y_str5, f)
     print('Store Success')
 
-#根据得到的五个y_str（五个角度的辨证）去按照表匹配得到结果
+#以下根据得到的五个y_str（五个角度的辨证）去按照表匹配得到结果
 
 with open('./data/label_transfer_dict.pkl', 'rb') as f:
     dict = pickle.load(f)
@@ -82,10 +84,6 @@ for i in range(len(y_str1)):
     y_bianzheng.append(y_bianzheng_temp)
 
 y_pred = []
-# for key in dict_qingxi.keys():
-#     print('key', key)
-#     print('dict',dict_qingxi[key] )
-#     # print('dict_j',dict_qingxi[key][j])
 for i in range(len(y_bianzheng)):
     flag_1 = 0
     print('y _bianzheng', i ,y_bianzheng[i])

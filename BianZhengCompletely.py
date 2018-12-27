@@ -1,3 +1,6 @@
+#程序说明
+#程序功能：调用rnn_nnlmzhong中的train_n 和test_n得到病历文本对应的五个中间辨证，分别是y_str1~~y_str5，并用pickle存储下来
+
 from run_nnlm import *
 import tensorflow as tf
 import pickle
@@ -7,26 +10,20 @@ save_dir2 = './checkpoints/QiXueJinYe/'
 save_dir3 = './checkpoints/BaGang/'
 save_dir4 = './checkpoints/WeiQiYingXue/'
 save_dir5 = './checkpoints/SanJiao/'
-#脏腑 13个类别 气血津液 11个类别 八纲10个类别 卫气营血 4个 三焦 3个
-#在第一个Test中 保存y_label 到‘./testLaebl“
-# def predict():
-#     # print('Hello')
-#训练
-# load_fenci.py 加载
-cidian_dir = './cidian_data15_size7.pkl'
-config = Config(15,13)#num_epoch, num_classes
-model1 = TextCnn(config)
-train1(model1, save_dir1,cidian_dir)
-y_str1 =test1(model1, save_dir1,cidian_dir)
-
 
 # print(y_return, np.shape(y_return))
 _, y_test = data_build_label('./data/bingli_exp_result/test')
 save_Test_label_dir = './Test_Label'
 with open(save_Test_label_dir, 'wb') as f:
     pickle.dump(y_test, f)
-    # print('Store Label Success')
 print('Before Test1')
+
+
+cidian_dir = './cidian_data15_size7.pkl'
+config = Config(15,13)#num_epoch, num_classes
+model1 = TextCnn(config)
+train1(model1, save_dir1,cidian_dir)
+y_str1 =test1(model1, save_dir1,cidian_dir)
 
 tf.reset_default_graph()
 

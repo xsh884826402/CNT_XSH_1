@@ -1,3 +1,0 @@
-1 修改了 practice_for_multilabel 里面增加了五个用来生成中间辨证的函数
-2 TezhengtoResultbyTable 严格按照表格匹配来将中间的五个特征转换成四十个病历分类
-3至与model_nnlm 和run_nnlm 并没有太大改动，只是为了不同的中间表示和不同的词向量窗口做了匹配修改
