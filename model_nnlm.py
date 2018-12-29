@@ -4,15 +4,16 @@ import tensorflow as tf
 import numpy as np
 
 class Config():
-    def __init__(self,number,classes):
+    def __init__(self,number,classes,cidian_dir,vocab_size=2824):
         self.num_epochs =number
         self.num_classes = classes
+        self.cidian_dir = cidian_dir
+        self.vocab_size = vocab_size
     embedding_dim = 128
     seq_length = 100
     # num_classes = 7
     num_filters = 128
     kernel_size = 3
-    vocab_size = 5000
 
     hidden_dim = 256
 

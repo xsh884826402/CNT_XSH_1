@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33fe3eab-d3d7-400a-9dca-9b42a81884b1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2018年12月18日程序打包.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Test_label" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/predict.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/readText.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_push.c" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZhongWenPaiXu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cidian_data15_size5.pkl" afterPath="$PROJECT_DIR$/cidian_data15_size5.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BianZhengCompletely.py" afterPath="$PROJECT_DIR$/BianZhengCompletely.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TezhengtoResultbyTable.py" afterPath="$PROJECT_DIR$/TezhengtoResultbyTable.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/k_means.py" afterPath="$PROJECT_DIR$/k_means.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model_nnlm.py" afterPath="$PROJECT_DIR$/model_nnlm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice.py" afterPath="$PROJECT_DIR$/practice.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_for_multilabel.py" afterPath="$PROJECT_DIR$/practice_for_multilabel.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_nnlm.py" afterPath="$PROJECT_DIR$/run_nnlm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp.py" afterPath="$PROJECT_DIR$/temp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cnews_loader.py" afterPath="$PROJECT_DIR$/Batch_Iter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/word2vec.py" afterPath="$PROJECT_DIR$/word2vec.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,10 +20,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CNT_XSH$TezhengtoResultbyTable.coverage" NAME="TezhengtoResultbyTable Coverage Results" MODIFIED="1545029277887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNT_XSH_1$practice_for_multilabel.coverage" NAME="practice_for_multilabel Coverage Results" MODIFIED="1545922870599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNT_XSH_1$ZhongWenPaiXu.coverage" NAME="ZhongWenPaiXu Coverage Results" MODIFIED="1546081458672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNT_XSH$load_fenci.coverage" NAME="load_fenci Coverage Results" MODIFIED="1540825950670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNT_XSH_1$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1546093877573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNT_XSH$TezhengtoResult.coverage" NAME="TezhengtoResult Coverage Results" MODIFIED="1543591600685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNT_XSH$model_nnlm.coverage" NAME="model_nnlm Coverage Results" MODIFIED="1539400195156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CNT_XSH_1$practice.coverage" NAME="practice Coverage Results" MODIFIED="1545800609062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CNT_XSH_1$practice.coverage" NAME="practice Coverage Results" MODIFIED="1546092767363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNT_XSH$Write_xls.coverage" NAME="Write_xls Coverage Results" MODIFIED="1543591039025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNT_XSH$run_nnlm.coverage" NAME="run_nnlm Coverage Results" MODIFIED="1544592980724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNT_XSH$Find_not_match_example.coverage" NAME="Find_not_match_example Coverage Results" MODIFIED="1544597171728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -44,38 +37,13 @@
     <SUITE FILE_PATH="coverage/CNT_XSH$practice.coverage" NAME="practice Coverage Results" MODIFIED="1544536893878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CNT_XSH_1$k_means.coverage" NAME="k_means Coverage Results" MODIFIED="1545815417273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="run_nnlm.py" pinned="false" current-in-tab="true">
-              <entry file="file://$USER_HOME$/Desktop/run_nnlm.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="268">
-                    <caret line="149" column="28" lean-forward="false" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
-                    <folding>
-                      <element signature="e#676#1426#0" expanded="false" />
-                      <element signature="e#1469#1736#0" expanded="false" />
-                      <element signature="e#1779#1798#0" expanded="false" />
-                      <element signature="e#1849#2110#0" expanded="false" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run_nnlm.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run_nnlm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_nnlm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="1170">
+              <caret line="1095" column="0" lean-forward="true" selection-start-line="1095" selection-start-column="0" selection-end-line="1095" selection-end-column="0" />
               <folding>
                 <element signature="e#771#1521#0" expanded="false" />
                 <element signature="e#1564#1831#0" expanded="false" />
@@ -83,27 +51,17 @@
                 <element signature="e#1944#2205#0" expanded="false" />
                 <element signature="e#2253#6828#0" expanded="false" />
                 <element signature="e#4167#5776#0" expanded="false" />
+                <element signature="e#6873#11694#0" expanded="false" />
                 <element signature="e#11739#16478#0" expanded="false" />
                 <element signature="e#16528#21990#0" expanded="false" />
                 <element signature="e#22035#27291#0" expanded="false" />
                 <element signature="e#27335#30108#0" expanded="false" />
+                <element signature="e#30152#32043#0" expanded="false" />
                 <element signature="e#32087#33970#0" expanded="false" />
                 <element signature="e#32087#32090#0" expanded="false" />
-                <element signature="e#34015#35908#0" expanded="false" />
-                <element signature="e#35952#37835#0" expanded="false" />
-                <element signature="e#35952#35955#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="k_means.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/k_means.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="82" column="40" lean-forward="false" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
-              <folding>
-                <element signature="e#976#3008#0" expanded="false" />
+                <element signature="e#34014#35907#0" expanded="false" />
+                <element signature="e#35951#37834#0" expanded="false" />
+                <element signature="e#35951#35954#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -124,8 +82,8 @@
       <file leaf-file-name="TezhengtoResultbyTable.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TezhengtoResultbyTable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2670">
-              <caret line="109" column="17" lean-forward="true" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+            <state relative-caret-position="809">
+              <caret line="109" column="17" lean-forward="false" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
               <folding>
                 <element signature="e#2438#2903#0" expanded="false" />
               </folding>
@@ -136,8 +94,41 @@
       <file leaf-file-name="word2vec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/word2vec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="52" column="101" lean-forward="false" selection-start-line="52" selection-start-column="101" selection-end-line="52" selection-end-column="101" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#1051#1403#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZhongWenPaiXu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZhongWenPaiXu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="practice.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-198831245/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="522" column="18" lean-forward="false" selection-start-line="522" selection-start-column="18" selection-end-line="522" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -146,21 +137,18 @@
       <file leaf-file-name="model_nnlm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_nnlm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="70" lean-forward="false" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="70" />
-              <folding>
-                <element signature="e#97#500#0" expanded="false" />
-                <element signature="e#953#1612#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="practice_for_multilabel.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="practice_for_multilabel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice_for_multilabel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="72" />
+            <state relative-caret-position="689">
+              <caret line="355" column="4" lean-forward="true" selection-start-line="355" selection-start-column="4" selection-end-line="355" selection-end-column="4" />
               <folding>
                 <element signature="e#471#524#0" expanded="true" />
                 <element signature="e#673#1379#0" expanded="false" />
@@ -176,6 +164,7 @@
                 <element signature="e#5109#5757#0" expanded="false" />
                 <element signature="e#5821#6764#0" expanded="false" />
                 <element signature="e#6820#7807#0" expanded="false" />
+                <element signature="e#7859#8842#0" expanded="false" />
                 <element signature="e#8900#9889#0" expanded="false" />
                 <element signature="e#9942#10926#0" expanded="false" />
               </folding>
@@ -191,26 +180,6 @@
               <folding>
                 <element signature="e#25359#26123#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_ZhongJianBianZheng.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_ZhongJianBianZheng.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TezhengtoResult.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TezhengtoResult.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="176" column="32" lean-forward="false" selection-start-line="176" selection-start-column="32" selection-end-line="176" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -282,17 +251,18 @@
         <option value="$PROJECT_DIR$/load_fenci.py" />
         <option value="$PROJECT_DIR$/info_gain_xsh.py" />
         <option value="$PROJECT_DIR$/Find_not_match_example.py" />
-        <option value="$PROJECT_DIR$/word2vec.py" />
         <option value="$PROJECT_DIR$/model_cnn.py" />
         <option value="$PROJECT_DIR$/get_ZhongJianBianZheng.py" />
-        <option value="$PROJECT_DIR$/practice.py" />
         <option value="$PROJECT_DIR$/k_means.py" />
-        <option value="$PROJECT_DIR$/model_nnlm.py" />
         <option value="$PROJECT_DIR$/temp.py" />
-        <option value="$PROJECT_DIR$/run_nnlm.py" />
         <option value="$PROJECT_DIR$/BianZhengCompletely.py" />
         <option value="$PROJECT_DIR$/practice_for_multilabel.py" />
         <option value="$PROJECT_DIR$/TezhengtoResultbyTable.py" />
+        <option value="$PROJECT_DIR$/ZhongWenPaiXu.py" />
+        <option value="$PROJECT_DIR$/practice.py" />
+        <option value="$PROJECT_DIR$/model_nnlm.py" />
+        <option value="$PROJECT_DIR$/word2vec.py" />
+        <option value="$PROJECT_DIR$/run_nnlm.py" />
       </list>
     </option>
   </component>
@@ -302,9 +272,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="161" />
-    <option name="y" value="201" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="194" />
+    <option name="y" value="48" />
     <option name="width" value="1562" />
     <option name="height" value="892" />
   </component>
@@ -324,7 +294,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,6 +305,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,8 +330,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.practice_for_multilabel">
-    <configuration name="BianZhengCompletely" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.word2vec">
+    <configuration name="ZhongWenPaiXu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -374,25 +344,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CNT_XSH" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BianZhengCompletely.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="TezhengtoResultbyTable" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CNT_XSH" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TezhengtoResultbyTable.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZhongWenPaiXu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -451,20 +403,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="word2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CNT_XSH" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/word2vec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.BianZhengCompletely" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TezhengtoResultbyTable" />
-      <item index="2" class="java.lang.String" itemvalue="Python.k_means" />
-      <item index="3" class="java.lang.String" itemvalue="Python.practice" />
-      <item index="4" class="java.lang.String" itemvalue="Python.practice_for_multilabel" />
+      <item index="0" class="java.lang.String" itemvalue="Python.k_means" />
+      <item index="1" class="java.lang.String" itemvalue="Python.practice" />
+      <item index="2" class="java.lang.String" itemvalue="Python.practice_for_multilabel" />
+      <item index="3" class="java.lang.String" itemvalue="Python.word2vec" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ZhongWenPaiXu" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.practice_for_multilabel" />
-        <item index="1" class="java.lang.String" itemvalue="Python.k_means" />
-        <item index="2" class="java.lang.String" itemvalue="Python.practice" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TezhengtoResultbyTable" />
-        <item index="4" class="java.lang.String" itemvalue="Python.BianZhengCompletely" />
+        <item index="0" class="java.lang.String" itemvalue="Python.word2vec" />
+        <item index="1" class="java.lang.String" itemvalue="Python.practice" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ZhongWenPaiXu" />
+        <item index="3" class="java.lang.String" itemvalue="Python.practice_for_multilabel" />
+        <item index="4" class="java.lang.String" itemvalue="Python.k_means" />
       </list>
     </recent_temporary>
   </component>
@@ -491,28 +461,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="201" width="1562" height="892" extended-state="1" />
-    <editor active="true" />
+    <frame x="194" y="48" width="1562" height="892" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0304679" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.397351" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33717105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20662251" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5419441" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27230358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2756325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48586956" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -551,8 +520,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/python2/WinPython-64bit-3.5.3.1Qt5/python-3.5.3.amd64/Lib/site-packages/keras/models.py" />
-    <entry file="file://D:/python2/WinPython-64bit-3.5.3.1Qt5/python-3.5.3.amd64/Lib/site-packages/keras/layers/recurrent.py" />
     <entry file="file://D:/python2/WinPython-64bit-3.5.3.1Qt5/python-3.5.3.amd64/Lib/site-packages/keras/layers/core.py" />
     <entry file="file://D:/python2/WinPython-64bit-3.5.3.1Qt5/python-3.5.3.amd64/Lib/site-packages/tensorflow/python/client/session.py" />
     <entry file="file://$PROJECT_DIR$/run_rnn.py" />
@@ -708,14 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-198831245/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14250">
-          <caret line="475" column="4" lean-forward="false" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Anaconda3/envs/tf/Lib/site-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153420">
@@ -732,16 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#53#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -754,12 +703,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="149" column="28" lean-forward="false" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
-          <folding>
-            <element signature="e#676#1426#0" expanded="false" />
-            <element signature="e#1469#1736#0" expanded="false" />
-            <element signature="e#1779#1798#0" expanded="false" />
-            <element signature="e#1849#2110#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -771,91 +715,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readText.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/predict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/readText.py" />
+    <entry file="file://$PROJECT_DIR$/predict.py" />
+    <entry file="file://$PROJECT_DIR$/test.txt" />
     <entry file="file://$PROJECT_DIR$/temp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Anaconda3/envs/tf/Lib/site-packages/sklearn/preprocessing/label.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="269" column="33" lean-forward="false" selection-start-line="269" selection-start-column="23" selection-end-line="269" selection-end-column="33" />
-          <folding>
-            <element signature="e#25359#26123#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_ZhongJianBianZheng.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TezhengtoResult.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="4950">
           <caret line="176" column="32" lean-forward="false" selection-start-line="176" selection-start-column="32" selection-end-line="176" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_nnlm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#771#1521#0" expanded="false" />
-            <element signature="e#1564#1831#0" expanded="false" />
-            <element signature="e#1874#1893#0" expanded="false" />
-            <element signature="e#1944#2205#0" expanded="false" />
-            <element signature="e#2253#6828#0" expanded="false" />
-            <element signature="e#4167#5776#0" expanded="false" />
-            <element signature="e#11739#16478#0" expanded="false" />
-            <element signature="e#16528#21990#0" expanded="false" />
-            <element signature="e#22035#27291#0" expanded="false" />
-            <element signature="e#27335#30108#0" expanded="false" />
-            <element signature="e#32087#33970#0" expanded="false" />
-            <element signature="e#32087#32090#0" expanded="false" />
-            <element signature="e#34015#35908#0" expanded="false" />
-            <element signature="e#35952#37835#0" expanded="false" />
-            <element signature="e#35952#35955#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/k_means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
+        <state relative-caret-position="299">
           <caret line="82" column="40" lean-forward="false" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
           <folding>
             <element signature="e#976#3008#0" expanded="false" />
@@ -873,39 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TezhengtoResultbyTable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2670">
-          <caret line="109" column="17" lean-forward="true" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
-          <folding>
-            <element signature="e#2438#2903#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_nnlm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="70" lean-forward="false" selection-start-line="66" selection-start-column="69" selection-end-line="66" selection-end-column="70" />
-          <folding>
-            <element signature="e#97#500#0" expanded="false" />
-            <element signature="e#953#1612#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_for_multilabel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="72" />
+        <state relative-caret-position="689">
+          <caret line="355" column="4" lean-forward="true" selection-start-line="355" selection-start-column="4" selection-end-line="355" selection-end-column="4" />
           <folding>
             <element signature="e#471#524#0" expanded="true" />
             <element signature="e#673#1379#0" expanded="false" />
@@ -921,8 +772,114 @@
             <element signature="e#5109#5757#0" expanded="false" />
             <element signature="e#5821#6764#0" expanded="false" />
             <element signature="e#6820#7807#0" expanded="false" />
+            <element signature="e#7859#8842#0" expanded="false" />
             <element signature="e#8900#9889#0" expanded="false" />
             <element signature="e#9942#10926#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_ZhongJianBianZheng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/envs/tf/Lib/site-packages/sklearn/preprocessing/label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="269" column="33" lean-forward="false" selection-start-line="269" selection-start-column="23" selection-end-line="269" selection-end-column="33" />
+          <folding>
+            <element signature="e#25359#26123#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/envs/tf/Lib/site-packages/gensim/models/word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11070">
+          <caret line="383" column="56" lean-forward="false" selection-start-line="383" selection-start-column="42" selection-end-line="383" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TezhengtoResultbyTable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="109" column="17" lean-forward="false" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+          <folding>
+            <element signature="e#2438#2903#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-198831245/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="522" column="18" lean-forward="false" selection-start-line="522" selection-start-column="18" selection-end-line="522" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZhongWenPaiXu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="52" column="101" lean-forward="false" selection-start-line="52" selection-start-column="101" selection-end-line="52" selection-end-column="101" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#1051#1403#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_nnlm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_nnlm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="1095" column="0" lean-forward="true" selection-start-line="1095" selection-start-column="0" selection-end-line="1095" selection-end-column="0" />
+          <folding>
+            <element signature="e#771#1521#0" expanded="false" />
+            <element signature="e#1564#1831#0" expanded="false" />
+            <element signature="e#1874#1893#0" expanded="false" />
+            <element signature="e#1944#2205#0" expanded="false" />
+            <element signature="e#2253#6828#0" expanded="false" />
+            <element signature="e#4167#5776#0" expanded="false" />
+            <element signature="e#6873#11694#0" expanded="false" />
+            <element signature="e#11739#16478#0" expanded="false" />
+            <element signature="e#16528#21990#0" expanded="false" />
+            <element signature="e#22035#27291#0" expanded="false" />
+            <element signature="e#27335#30108#0" expanded="false" />
+            <element signature="e#30152#32043#0" expanded="false" />
+            <element signature="e#32087#33970#0" expanded="false" />
+            <element signature="e#32087#32090#0" expanded="false" />
+            <element signature="e#34014#35907#0" expanded="false" />
+            <element signature="e#35951#37834#0" expanded="false" />
+            <element signature="e#35951#35954#0" expanded="false" />
           </folding>
         </state>
       </provider>

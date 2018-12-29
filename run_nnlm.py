@@ -955,7 +955,6 @@ def test3(model, save_dir,cidian_dir):
         y_str.append(ZangFu_label[item])
     session.close()
     return y_str
-
 def test4(model, save_dir,cidian_dir):
     #脏腑
     #save_dir 保存模型的路径
@@ -1101,7 +1100,7 @@ def test5(model, save_dir,cidian_dir):
 
 if __name__ =='__main__':
     print("config CNN")
-    config = Config(10,13)
+    config = Config(10,13,)
     model = TextCnn(config)
     save_dir = './checkpoints/Test'
     train2(model, save_dir)
